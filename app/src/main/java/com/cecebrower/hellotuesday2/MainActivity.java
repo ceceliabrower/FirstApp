@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 
                 EditText e = (EditText)(findViewById(R.id.editText));
                 TextView t = (TextView)(findViewById(R.id.textView));
-                t.setText("My name is: "+e.getText());
+                t.setText("My name: "+e.getText());
             }
         });
     }
